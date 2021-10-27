@@ -3,6 +3,7 @@
   and so on; return indices of the two elements of array such that they add up to sum. Assume that each input would have only one
   solution, and you won't use the same element twice.
   The order of indices in answer doesn't matter.*/
+  /*You can't change 'main' method*/
 
 public class Main {
 
