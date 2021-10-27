@@ -1,4 +1,5 @@
 /*You can only use libs that java provides by default, no outside libs or frameworks are allowed*/
+/*You can't change 'main' method*/
 
 public class Main {
 
