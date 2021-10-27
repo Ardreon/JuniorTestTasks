@@ -1,0 +1,22 @@
+/*You can only use libs that java provides by default, no outside libs or frameworks are allowed*/
+/*Move all zeroes to the end of array while maintaining the relative order of the non-zero elements
+  You must do it without allocating the space for additional array*/
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] mas1 = {0,1,0,3,12};
+        int[] mas2 = {0};
+        int[] mas3 = {0,0,5,0,-5,0,10,0};
+        moveZeroes(mas1);
+        moveZeroes(mas2);
+        moveZeroes(mas3);
+        System.out.println(Arrays.toString(mas1) + " -> " + "[1, 3, 12, 0, 0]");
+        System.out.println(Arrays.toString(mas2) + " -> " + "[0]");
+        System.out.println(Arrays.toString(mas3) + " -> " + "[5, -5, 10, 0, 0, 0, 0, 0]");
+    }
+    
+    private static void moveZeroes(int[] array) {
+    //Your code here
+ }
+}
